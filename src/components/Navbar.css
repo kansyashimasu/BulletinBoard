@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color:rgba(12, 35, 64, 0.5);
+    gap: 45px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+nav a:hover{
+    color:#79BC43 ;
+}
+
+nav a svg{
+    margin-right: 5px;
+}

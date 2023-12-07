@@ -1,0 +1,43 @@
+.homepage{
+    width: 100%;
+    height: calc(100vh - 80px);
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.homepage .postContents{
+    width: 600px;
+    height: auto;
+    max-height: 600px;
+    background-color: rgba(12, 35, 64, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+    transition: all 0.5s;
+}
+
+
+
+.postHeader h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.postContents .postTextContainer{
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+    max-height: 600px;
+}
+
+.name h3{
+    padding-top: 40px;
+    color: #78BE20;
+}
